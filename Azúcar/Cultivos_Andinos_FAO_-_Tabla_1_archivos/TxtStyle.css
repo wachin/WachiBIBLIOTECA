@@ -1,0 +1,40 @@
+.Tit
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, 'Times New Roman';
+    FONT-SIZE: 16px
+}
+.SubTit
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, 'Times New Roman';
+    FONT-SIZE: 16px;
+    FONT-WEIGHT: normal
+}
+.Txt
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, 'Times New Roman';
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: normal
+}
+.Ref
+{
+    COLOR: navy;
+    FONT-FAMILY: Arial, 'Times New Roman';
+    FONT-SIZE: 15px;
+    FONT-STYLE: italic;
+    FONT-WEIGHT: normal
+}
+.TxtBl
+{
+    COLOR: blue;
+    FONT-FAMILY: Arial, 'Times New Roman';
+    FONT-SIZE: 16px
+}
+.TxtMenu
+{
+    COLOR: black;
+    FONT-FAMILY: Arial, 'Times New Roman';
+    FONT-SIZE: 14px
+}

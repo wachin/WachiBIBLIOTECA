@@ -1,0 +1,5 @@
+
+Aquí se usa la PC para reconocer por micrófono el sonido de las teclas de un piano externo, también se puede instalar una app en el celular
+
+
+https://app.flowkey.com/ 

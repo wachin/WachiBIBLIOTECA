@@ -1,0 +1,3 @@
+[Desktop Entry]
+Type=Link
+URL=http://artescritorio.com/android-esta-basado-en-linux-30243/

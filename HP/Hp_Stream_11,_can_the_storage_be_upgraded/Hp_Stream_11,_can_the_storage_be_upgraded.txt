@@ -1,0 +1,7 @@
+
+
+
+Hp Stream 11, can the storage be upgraded? | Tom's Guide Forum
+https://forums.tomsguide.com/threads/hp-stream-11-can-the-storage-be-upgraded.414073/
+
+The HP Stream storage space is a chip soldered to the motherboard, it has no physical hard drive. There is no way to upgrade the storage the unit was purchased with, most of these have 32gb. The only way to add more storage space would be to put a Micro SD card in the provided slot and use it as a secondary drive for storage.
