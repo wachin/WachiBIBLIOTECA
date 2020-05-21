@@ -1,8 +1,6 @@
 [Dolphin]
-PreviewsShown=false
-Timestamp=2020,1,23,12,36,9
+HeaderColumnWidths=301,76,107,205
+Timestamp=2020,5,21,17,49,29
 Version=4
 ViewMode=1
-
-[Settings]
-HiddenFilesShown=true
+VisibleRoles=Icons_text,Icons_size
