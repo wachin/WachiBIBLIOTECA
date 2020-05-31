@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Medidas de protección</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="infografias-01_data/css2.css" rel="stylesheet">
+<style>
+    .accordion {
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    width: 100%;
+}
+
+.accordion-select {
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.accordion-title {
+    position: relative;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+    border: 1px solid transparent;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.accordion-title span {
+    bottom: 0px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.accordion-content {
+    box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+    transition: margin 0.3s ease 0.1s;
+}
+
+.accordion-select:checked + .accordion-title + .accordion-content {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+/* Generated styles starts here */
+
+.accordion {
+    border-color: #dedede;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    height: auto;
+} 
+
+.accordion-title,
+.accordion-select  {
+    background-color: #ffffff;
+    color: #7f8787;
+    width: 100%;
+    height: 65px;
+    font-size: 15px;
+}
+
+.accordion-select {
+    margin-bottom: -65px;
+    margin-right: -65px;
+}
+
+.accordion-title:not(:nth-last-child(2))::after {
+    border-bottom-color: rgb(234, 234, 234);
+    border-right-color: transparent;
+} 
+
+.accordion-select:hover + .accordion-title,
+.accordion-select:checked + .accordion-title {
+    background-color: #ffffff;
+} 
+
+ .accordion-title span  {	
+    transform: rotate(0deg);
+    -ms-writing-mode: lr-tb;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    padding-left: 33px;
+    padding-right: 33px;
+    line-height: 65px;
+} 
+
+.accordion-content {
+    background-color: #f7f7f7;
+    color: #7f8787;
+    height: 220px;
+    margin-bottom: -220px;
+    margin-right: 0;
+    padding: 0 30px 0 30px;
+    width: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+} 
+</style>
+</head>
+<body>
+     <div class="accordion">
+	          <input type="radio" name="select" class="accordion-select" checked="checked">
+	     <div class="accordion-title"><span>Lavado de manos</span></div>
+	     <div class="accordion-content"><span style="text-align:left;"><img src="medidas-proteccion_data/lavar-150x150.png" width="150" height="150"></span><span>Lávese las manos a fondo y con frecuencia usando un desinfectante a base de alcohol o con agua y jabón.</span></div>
+         <input type="radio" name="select" class="accordion-select">
+    <div class="accordion-title"><span>Higiene de vías respiratorias</span></div>
+    <div class="accordion-content"><span style="text-align:left;"><img src="medidas-proteccion_data/ico-contagio_04.png" width="150" height="150"></span><span>Evite tocarse los ojos, la nariz y la boca.<br>
+Mantener una buena higiene de las vías respiratorias. Eso significa 
+cubrirse la boca y la nariz con el codo doblado o con un pañuelo de 
+papel al toser o estornudar. El pañuelo usado debe desecharse de 
+inmediato.Usa mascarilla en caso de atender a alguien en quien se 
+sospeche la infección por el COVID-19.<br>
+Mantenga una distancia mínima de 1 metro (3 pies) entre usted y cualquier persona que tosa o estornude.</span></div>
+     <input type="radio" name="select" class="accordion-select">
+    <div class="accordion-title"><span>Síntomas</span></div>
+    <div class="accordion-content"><span style="text-align:left;margin:10px;"><img src="medidas-proteccion_data/triste-150x150.png" width="130" height="130"></span><span>Si tienes fiebre, tos y dificultad para respirar, comunícate al <a href="tel:171" style="text-decoration:none;font-size:24px;"><strong>171</strong></a> para evaluar tu estado. <br>Si necesitas una cita, puedes agendar <a href="https://www.citas.med.ec/" target="_blank" style="text-decoration:none;font-size:24px;"><strong>Citas</strong></a> en el Ministerio de Salud Pública.
+    <h3><a href="https://coronavirusecuador.com/prueba-covid-19/" target="_blank" style="text-decoration:none;">Autoevaluación del COVID-19</a></h3></span></div>
+     <input type="radio" name="select" class="accordion-select">
+    <div class="accordion-title"><span>Información oficial</span></div>
+    <div class="accordion-content"><span style="text-align:left;margin:10px;"><img src="medidas-proteccion_data/news-newspaper-media-paper-press-article_108607.png" width="130" height="130"></span><span>Manténgase
+ informado sobre las últimas novedades en relación con la COVID-19. Siga
+ los consejos de su dispensador de atención de salud, de las autoridades
+ sanitarias pertinentes a nivel nacional y local o de su empleador sobre
+ la forma de protegerse a sí mismo y a los demás ante la COVID-19.</span></div>
+     <input type="radio" name="select" class="accordion-select">
+    <div class="accordion-title"><span>Adultos mayores</span></div>
+    <div class="accordion-content"><span style="text-align:left;margin:10px;"><img src="medidas-proteccion_data/antiguo-150x150.png" width="130" height="130"></span><span>Se pide que las personas mayores de 60 años procuren quedarse en casa.
+</span></div>
+     <input type="radio" name="select" class="accordion-select">
+    <div class="accordion-title"><span>Canales oficiales</span></div>
+    <div class="accordion-content"><span style="text-align:left;margin:10px;"><img src="medidas-proteccion_data/3890930-announce-horn-megaphone-news-trumpet_111179.png" width="130" height="130"></span><span>Informarse por canales oficiales.<br>
+Evita compartir rumores o noticias que no hayan sido confirmadas.<br>
+Se solicita respeto a la familia de los pacientes y de quienes forman parte del cerco epidemiológico.
+</span></div>
+     <input type="radio" name="select" class="accordion-select">
+    <div class="accordion-title"><span>Paciente con aislamiento domiciliario</span></div>
+    <div class="accordion-content"><h3 style="text-decoration:none;"><a href="https://www.salud.gob.ec/cuidados-que-debes-tener-con-un-paciente-en-aislamiento-domiciliario-familia-y-tu-como-cuidador/">Cuidados que debes tener con un paciente en
+aislamiento domiciliario, familia y tú como cuidador</a></h3></div>
+</div> 
+
+ </body></html>
